@@ -1,0 +1,8 @@
+#footer {
+  @include mobile {
+    .column {
+      margin-bottom: 1.3rem;
+    }
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.hero {
+  figure {
+    width: 256px;
+  }
+
+  a {
+    color: $white;
+    border-bottom: 1px solid $primary;
+  }
+}
+
+.portrait {
+  border: 5px solid $primary;
+}

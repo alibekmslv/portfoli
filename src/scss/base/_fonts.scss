@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Panton;
+  src: url(../../fonts/PantonBold/PantonBold.woff) format("woff"),
+    url(../../fonts/PantonBold/PantonBold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Panton;
+  src: url(../../fonts/PantonLight/PantonLight.woff) format("woff"),
+    url(../../fonts/PantonLight/PantonLight.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}

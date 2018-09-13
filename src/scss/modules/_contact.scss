@@ -1,0 +1,60 @@
+#contact_form {
+  input {
+    outline: none;
+    transition: all 0.3s ease-out;
+  }
+}
+
+.contact_list {
+  li {
+    display: inline;
+
+    a {
+      border-radius: 100%;
+      transition: all 0.3s ease-in;
+      outline: none;
+    }
+
+    .is-vk {
+      color: $vk;
+      border-color: $vk;
+      &:hover {
+        color: $light;
+        background-color: $vk;
+      }
+    }
+    .is-fb {
+      color: $facebook;
+      border-color: $facebook;
+      &:hover {
+        color: $light;
+        background-color: $facebook;
+      }
+    }
+
+    .is-tg {
+      color: $telegram;
+      border-color: $telegram;
+      &:hover {
+        color: $light;
+        background-color: $telegram;
+      }
+    }
+    .is-wa {
+      color: $whatsapp;
+      border-color: $whatsapp;
+      &:hover {
+        color: $light;
+        background-color: $whatsapp;
+      }
+    }
+    .is-em {
+      color: $primary;
+      border-color: $primary;
+      &:hover {
+        color: $light;
+        background-color: $primary;
+      }
+    }
+  }
+}

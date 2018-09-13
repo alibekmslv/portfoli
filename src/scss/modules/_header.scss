@@ -1,0 +1,53 @@
+.navbar-item a {
+  color: findColorInvert($black);
+}
+.is-link.is-active,
+.is-link:hover {
+  border-bottom: 1px solid $primary;
+}
+
+a.navbar-item:hover {
+  background-color: transparent;
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+@include touch {
+  .navbar-menu {
+    transform-origin: center center;
+    display: block;
+    transition-duration: 0.5s;
+    background-color: $black;
+    bottom: 0;
+    box-shadow: none;
+    left: 100%;
+    padding: 3rem 1.5rem;
+    position: fixed;
+    top: 0;
+    transition-property: transform;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .navbar-menu.is-active {
+    opacity: 1;
+    transform: translateX(-100%);
+    display: block;
+  }
+  .navbar-burger,
+  .navbar-burger:hover {
+    color: $primary;
+
+    z-index: 1;
+  }
+  .navbar-burger.is-active {
+    color: $light;
+    position: fixed;
+    top: 3rem;
+    right: 1.5rem;
+  }
+  .navbar-burger:hover {
+    background-color: initial;
+  }
+}

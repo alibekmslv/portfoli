@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  line-height: 0;
+}
+
+body {
+  color: $dark;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $primary;
+  text-decoration: none;
+}
+
+.is-margin-auto {
+  margin: 0 auto;
+}
