@@ -28,11 +28,14 @@
   figure {
     position: relative;
     overflow: hidden;
+    @include touch {
+      cursor: pointer;
+    }
 
     .is-overlay:hover,
     .is-overlay:active,
     .is-overlay:focus {
-      background-color: rgba($color: $dark, $alpha: 0.9);
+      background-color: rgba($dark, 0.9);
       figcaption {
         opacity: 1;
       }
